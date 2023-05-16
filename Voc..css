@@ -14,7 +14,7 @@ html {
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -29,8 +29,4 @@ html {
     position: fixed;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-}
-
-h1{ text-transform: uppercase;
-    margin-bottom: 0;
 }
