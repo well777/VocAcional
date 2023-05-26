@@ -1,0 +1,86 @@
+body {
+    color: #ae2012;
+    font-size: 14px;
+}
+
+body {
+    background-color: #240046;
+    height: 100vh;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    color: #eae9ee;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #023e8a;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.brasao img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Estilos para o texto central */
+
+.Texto_central {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Estilos para o título */
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Estilos para a descrição */
+
+.description {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Estilos para o botão */
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e7a20e;
+    border-radius: 4px;
+    padding: 8px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.tag.selected {
+    background-color: #4286f4;
+    color: white;
+}
