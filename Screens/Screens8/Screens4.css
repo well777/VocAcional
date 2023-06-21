@@ -1,0 +1,17 @@
+body {
+    background-color: #fff8dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #110349;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+.perguntas {
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

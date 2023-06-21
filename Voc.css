@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .TopoDoSite {
     display: flex;
     justify-content: center;
@@ -20,4 +21,28 @@
 
 .logo h3 {
     margin: 0;
+=======
+.TopoDoSite {
+    display: flex;
+    justify-content: center;
+    background-color: #0cd6dd;
+    padding: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    height: 120px;
+    margin-right: 100px;
+    vertical-align: middle;
+    border-style: auto;
+}
+
+.logo h3 {
+    margin: 0;
+>>>>>>> 12f7d0e2490a7e1c368fae6d37a270e6a921c72b
 }

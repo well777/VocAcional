@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Voc..css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <Header>
+        <div class='TopoDoSite '>
+            <div class="logo ">
+                <img src="op.png.png " alt="logo do site ">
+                <h3>OrientaVoc</h3>
+                <h1>Faça seu teste Vocacional
+                    <br> Descubra sua profissão
+                    <br>Aqui na OrientaVoc
+                </h1>
+            </div>
+            <div class="container">
+                <div>
+                    <h1> class="Display2">Teste Vocacional</h1>
+                    <p class="lead">
+                        Neste teste vocacional você irá obter informações sobre as profissões da área de Exatas que mais se identificam com você de acordo com as respostas selecionadas. Este teste vocacional é composto de 19 questões de múltipla escolha. Para você que está prestando
+                        seleção para ingresso no ensino superior o teste vocacional é uma excelente oportunidade de analisar com quais profissões você poderia identificar mais.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </Header>
+    <div>
+        <form class="form-signin" id="formfeira" name="formfeira" action="resultado.cfm" method="post">
+            <div class="form-group">
+                <label for="cand_nm">Nome Completo</label>
+                <input type="text" id="cand_nm" name="cand_nm" value="" class="form-control" placeholder="Nome" maxlength="80" required="" autofocus="">
+                <label for="number2">Idade</label>
+                <input type="number" id="number2" name="number" value="" class="form-control" placeholder="idade" maxlength="90" required="" autofocus="">
+
+            </div>
+            <div class="opção1">
+                <div class="container">
+                    <h1 class="display-6">1) Quando imagino minha vida daqui a dez anos, me vejo como um profissional:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p1r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p1r5" value="5" name="p_1r" required="">
+                                        <label for="cur_p1r5">Atuante em minha comunidade.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p1r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p1r4" value="4" name="p_1r" required="">
+                                        <label for="cur_p1r4">Muito bem sucedido financeiramente.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p1r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p1r1" value="1" name="p_1r" required="">
+                                        <label for="cur_p1r1">Realizado, fazendo as coisas que gosto.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p1r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p1r2" value="2" name="p_1r" required="">
+                                        <label for="cur_p1r2">Reconhecido e valorizado no mercado.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p1r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p1r3" value="3" name="p_1r" required="">
+                                        <label for="cur_p1r3">Sério, dando continuidade ao trabalho dos meus pais.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção2">
+                <div class="container">
+                    <h1 class="display-6">2) Os profissionais que mais admiro são aqueles que:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p2r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p2r4" value="4" name="p_2r" required="">
+                                        <label for="cur_p2r4">Fazem sucesso e ficam ricos com seu trabalho.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p2r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p2r2" value="2" name="p_2r" required="">
+                                        <label for="cur_p2r2">São considerados os melhores na sua profissão.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p2r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p2r5" value="5" name="p_2r" required="">
+                                        <label for="cur_p2r5">São excelentes e sempre desenvolvem trabalhos voluntários.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p2r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p2r1" value="1" name="p_2r" required="">
+                                        <label for="cur_p2r1">Sentem-se felizes e plenamente satisfeitos com seu trabalho.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p2r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p2r3" value="3" name="p_2r" required="">
+                                        <label for="cur_p2r3">Têm sucesso seguindo a tradição profissional da família.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção3">
+                <div class="container">
+                    <h1 class="display-6">3) As minhas férias ideais são:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p3r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p3r2" value="2" name="p_3r" required="">
+                                        <label for="cur_p3r2">Esquiando nas montanhas nos lugares mais badalados.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p3r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p3r1" value="1" name="p_3r" required="">
+                                        <label for="cur_p3r1">Fazendo tudo que gosto e que nunca tenho tempo para curtir.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p3r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p3r4" value="4" name="p_3r" required="">
+                                        <label for="cur_p3r4">Não importa o lugar, desde que num hotel 5 estrelas e com todas as mordomias.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p3r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p3r5" value="5" name="p_3r" required="">
+                                        <label for="cur_p3r5">Passando o tempo em uma cidade do interior envolvido em um projeto comunitário.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p3r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p3r3" value="3" name="p_3r" required="">
+                                        <label for="cur_p3r3">Viajando para praia ou o campo com os amigos do colégio.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção4">
+                <div class="container">
+                    <h1 class="display-6">4) Quando sou apresentado a alguém, geralmente falo sobre:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p4r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p4r3" value="3" name="p_4r" required="">
+                                        <label for="cur_p4r3">As histórias engraçadas da minha infância, minha família e amigos comuns.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p4r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p4r4" value="4" name="p_4r" required="">
+                                        <label for="cur_p4r4">Carros, viagens e os lugares da moda que gosto de freqüentar.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p4r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p4r1" value="1" name="p_4r" required="">
+                                        <label for="cur_p4r1">Os meus interesses e hobbies.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p4r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p4r5" value="5" name="p_4r" required="">
+                                        <label for="cur_p4r5">Os problemas que acontecem na política e as desigualdades sociais.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p4r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p4r2" value="2" name="p_4r" required="">
+                                        <label for="cur_p4r2">Pessoas famosas e importantes que conheço.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção5">
+                <div class="container">
+                    <h1 class="display-6">5) Quando os outros se referem a mim, gosto de ser lembrado por:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p5r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p5r4" value="4" name="p_5r" required="">
+                                        <label for="cur_p5r4">Coisas que conquisto.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p5r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p5r1" value="1" name="p_5r" required="">
+                                        <label for="cur_p5r1">Meu jeito de ser.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p5r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p5r3" value="3" name="p_5r" required="">
+                                        <label for="cur_p5r3">Meu sobrenome.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p5r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p5r2" value="2" name="p_5r" required="">
+                                        <label for="cur_p5r2">Minha popularidade.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p5r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p5r5" value="5" name="p_5r" required="">
+                                        <label for="cur_p5r5">Sempre ajudar aos outros.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção6">
+                <div class="container">
+                    <h1 class="display-6">6) Aproveito as minhas horas de lazer para:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p6r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p6r4" value="4" name="p_6r" required="">
+                                        <label for="cur_p6r4">Fazer compras ou passear no shopping.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p6r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p6r3" value="3" name="p_6r" required="">
+                                        <label for="cur_p6r3">Ficar em casa conversando com meus amigos ou assistindo a um vídeo.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p6r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p6r5" value="5" name="p_6r" required="">
+                                        <label for="cur_p6r5">Ficar ligado nas notícias atuais.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p6r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p6r1" value="1" name="p_6r" required="">
+                                        <label for="cur_p6r1">Ir ao cinema, mexer no computador ou ler um livro.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p6r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p6r2" value="2" name="p_6r" required="">
+                                        <label for="cur_p6r2">Ir aos lugares da moda ou me informar sobre o que está acontecendo de interessante pela cidade.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção7">
+                <div class="container">
+                    <h1 class="display-6">7) Quando conheço alguém do sexo oposto, procuro saber:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p7r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p7r5" value="5" name="p_7r" required="">
+                                        <label for="cur_p7r5">Em qual partido votou nas últimas eleições.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p7r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p7r4" value="4" name="p_7r" required="">
+                                        <label for="cur_p7r4">Onde mora e em que colégio estuda. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p7r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p7r2" value="2" name="p_7r" required="">
+                                        <label for="cur_p7r2">Quem são seus amigos e os lugares que freqüenta. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p7r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p7r1" value="1" name="p_7r" required="">
+                                        <label for="cur_p7r1">Seus hábitos e interesses.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p7r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p7r3" value="3" name="p_7r" required="">
+                                        <label for="cur_p7r3">Sobre sua família e seus melhores amigos.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção8">
+                <div class="container">
+                    <h1 class="display-6">8) Nas minhas relações pessoais procuro estar sempre cercado por:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p8r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p8r2" value="2" name="p_8r" required="">
+                                        <label for="cur_p8r2">Gente interessante que tem sempre novidades para contar. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p8r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p8r4" value="4" name="p_8r" required="">
+                                        <label for="cur_p8r4">Gente que gosta de viver bem. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p8r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p8r3" value="3" name="p_8r" required="">
+                                        <label for="cur_p8r3">Pessoas próximas, em quem confio. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p8r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p8r5" value="5" name="p_8r" required="">
+                                        <label for="cur_p8r5">Pessoas que atuam na sociedade de forma ética.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p8r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p8r1" value="1" name="p_8r" required="">
+                                        <label for="cur_p8r1">Quem gosta de coisas que eu gosto. </label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção9">
+                <div class="container">
+                    <h1 class="display-6">9) Quando me refiro à minha família, geralmente falo sobre:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p9r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p9r3" value="3" name="p_9r" required="">
+                                        <label for="cur_p9r3">As coisas que fazemos juntos. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p9r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p9r4" value="4" name="p_9r" required="">
+                                        <label for="cur_p9r4">As suas conquistas pessoais e econômicas. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p9r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p9r5" value="5" name="p_9r" required="">
+                                        <label for="cur_p9r5">A sua origem social e orgulho que sinto em relação a ela.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p9r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p9r1" value="1" name="p_9r" required="">
+                                        <label for="cur_p9r1">O lado interessante da profissão dos meus pais.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p9r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p9r2" value="2" name="p_9r" required="">
+                                        <label for="cur_p9r2">O sucesso que alcançaram e o prestígio que eles têm. </label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção10">
+                <div class="container">
+                    <h1 class="display-6">10) O que mais me atrai quando me relaciono com alguém é:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p10r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p10r5" value="5" name="p_10r" required="">
+                                        <label for="cur_p10r5">A forma de agir dele (a), sempre preocupado(a) com os outros.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p10r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p10r4" value="4" name="p_10r" required="">
+                                        <label for="cur_p10r4">A maneira como aproveita a vida, com viagens, festas, roupas da moda.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p10r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p10r1" value="1" name="p_10r" required="">
+                                        <label for="cur_p10r1">A maneira como ele(ela) curte tudo o que faz.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p10r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p10r2" value="2" name="p_10r" required="">
+                                        <label for="cur_p10r2">A vida agitada e cheia de acontecimentos que tem.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p10r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p10r3" value="3" name="p_10r" required="">
+                                        <label for="cur_p10r3">O contato com seus amigos e família.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção11">
+                <div class="container">
+                    <h1 class="display-6">11) Quando vou dar um presente para um amigo procuro:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p11r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p11r5" value="5" name="p_11r" required="">
+                                        <label for="cur_p11r5">Algo que ele realmente goste e valorize.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p11r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p11r4" value="4" name="p_11r" required="">
+                                        <label for="cur_p11r4">Escolher algo de qualidade como uma roupa de grife ou um CD importado.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p11r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p11r1" value="1" name="p_11r" required="">
+                                        <label for="cur_p11r1">Escolher algo que eu goste e ele também.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p11r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p11r2" value="2" name="p_11r" required="">
+                                        <label for="cur_p11r2">Escolher um objeto que o faça se sentir especial e diferente dos demais.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p11r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p11r3" value="3" name="p_11r" required="">
+                                        <label for="cur_p11r3">Pensar em alguma coisa que ele possa aproveitar junto com seus amigos.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção11">
+                <div class="container">
+                    <h1 class="display-6">12) O paraíso para mim é um lugar onde posso:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p12r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p12r4" value="4" name="p_12r" required="">
+                                        <label for="cur_p12r4">Aproveitar todas as coisas boas da vida. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p12r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p12r5" value="5" name="p_12r" required="">
+                                        <label for="cur_p12r5">Confiar nas pessoas, e onde não existam diferenças sociais.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p12r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p12r3" value="3" name="p_12r" required="">
+                                        <label for="cur_p12r3">Curtir as pessoas de quem eu mais gosto. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p12r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p12r2" value="2" name="p_12r" required="">
+                                        <label for="cur_p12r2">Encontrar  pessoas interessantes e famosas.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p12r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p12r1" value="1" name="p_12r" required="">
+                                        <label for="cur_p12r1">Fazer todas as coisas que gosto e do jeito que eu quero. </label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção12">
+                <div class="container">
+                    <h1 class="display-6">13) O professor que mais me influenciou até hoje foi o que:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p13r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p13r1" value="1" name="p_13r" required="">
+                                        <label for="cur_p13r1">Me ajudou a descobrir novos interesses e talentos. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p13r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p13r3" value="3" name="p_13r" required="">
+                                        <label for="cur_p13r3">Me ajudou a melhorar minhas relações interpessoais. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p13r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p13r4" value="4" name="p_13r" required="">
+                                        <label for="cur_p13r4">Me apresentou um novo e promissor campo de trabalho. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p13r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p13r5" value="5" name="p_13r" required="">
+                                        <label for="cur_p13r5">Me ensinou a pensar criticamente.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p13r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p13r2" value="2" name="p_13r" required="">
+                                        <label for="cur_p13r2">Me reconheceu como um dos melhores. </label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção13">
+                <div class="container">
+                    <h1 class="display-6">14) Se eu fosse trabalhar nas férias, escolheria uma atividade que:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p14r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p14r4" value="4" name="p_14r" required="">
+                                        <label for="cur_p14r4">Fosse bem remunerada. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p14r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p14r5" value="5" name="p_14r" required="">
+                                        <label for="cur_p14r5">Fosse voluntária e com a qual eu pudesse ajudar o maior número de pessoas.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p14r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p14r2" value="2" name="p_14r" required="">
+                                        <label for="cur_p14r2">Me colocasse em contato com pessoas bem-sucedidas. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p14r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p14r1" value="1" name="p_14r" required="">
+                                        <label for="cur_p14r1">Me permitisse fazer coisas que mais gosto.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p14r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p14r3" value="3" name="p_14r" required="">
+                                        <label for="cur_p14r3">Pudesse ser feita em equipe. </label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção14">
+                <div class="container">
+                    <h1 class="display-6">15) O grande sonho da minha vida é:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p15r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p15r1" value="1" name="p_15r" required="">
+                                        <label for="cur_p15r1">Poder desenvolver plenamente meus talentos e habilidades. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p15r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p15r3" value="3" name="p_15r" required="">
+                                        <label for="cur_p15r3">Ser querido e respeitado pelos que me cercam. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p15r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p15r2" value="2" name="p_15r" required="">
+                                        <label for="cur_p15r2">Ser reconhecido como o melhor naquilo que faço. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p15r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p15r4" value="4" name="p_15r" required="">
+                                        <label for="cur_p15r4">Viver cercado de muito conforto, sem nenhuma preocupação financeira. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p15r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p15r5" value="5" name="p_15r" required="">
+                                        <label for="cur_p15r5">Viver em uma sociedade igualitária.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opço15">
+                <div class="container">
+                    <h1 class="display-6">16) A pior coisa para mim é:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p16r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p16r5" value="5" name="p_16r" required="">
+                                        <label for="cur_p16r5">Fazer coisas que vão contra meus valores.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p16r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p16r3" value="3" name="p_16r" required="">
+                                        <label for="cur_p16r3">Ficar longe dos meus amigos e familiares. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p16r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p16r4" value="4" name="p_16r" required="">
+                                        <label for="cur_p16r4">Não poder fazer as coisas que gosto por falta de grana. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p16r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p16r2" value="2" name="p_16r" required="">
+                                        <label for="cur_p16r2">Não ser reconhecido por minhas realizações. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p16r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p16r1" value="1" name="p_16r" required="">
+                                        <label for="cur_p16r1">Ser obrigado a fazer coisas que não têm nada a ver comigo. </label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção16">
+                <div class="container">
+                    <h1 class="display-6">17) Gosto principalmente de esportes que:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p17r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p17r5" value="5" name="p_17r" required="">
+                                        <label for="cur_p17r5">Envolvam trabalho em grupo e equipe.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p17r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p17r3" value="3" name="p_17r" required="">
+                                        <label for="cur_p17r3">Eu possa jogar com meus amigos da escola. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p17r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p17r1" value="1" name="p_17r" required="">
+                                        <label for="cur_p17r1">Permitem que eu me descontraia e aproveite os amigos. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p17r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p17r2" value="2" name="p_17r" required="">
+                                        <label for="cur_p17r2">Possibilitam ao atleta se destacar e ficar famoso. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p17r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p17r4" value="4" name="p_17r" required="">
+                                        <label for="cur_p17r4"> Possibilitam sucesso financeiro e poder. </label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção17">
+                <div class="container">
+                    <h1 class="display-6">18) Revistas e livros são antes de mais nada:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p18r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p18r1" value="1" name="p_18r" required="">
+                                        <label for="cur_p18r1">Fontes de informação e de conhecimentos sobre os assuntos que me interessam. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p18r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p18r4" value="4" name="p_18r" required="">
+                                        <label for="cur_p18r4">Fontes de informações que podem me ajudar a alcançar meus objetivos. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p18r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p18r5" value="5" name="p_18r" required="">
+                                        <label for="cur_p18r5">Referências para que eu seja um cidadão consciente.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p18r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p18r3" value="3" name="p_18r" required="">
+                                        <label for="cur_p18r3">Uma forma de me atualizar para poder conversar com os amigos. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p18r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p18r2" value="2" name="p_18r" required="">
+                                        <label for="cur_p18r2">Um meio de ficar por dentro das novidades e saber sobre a vida das pessoas. </label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="opção18">
+                <div class="container">
+                    <h1 class="display-6">19) Meus amigos sempre me procuram quando:</h1>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p19r5" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p19r5" value="5" name="p_19r" required="">
+                                        <label for="cur_p19r5">Estão em dificuldades e precisam de ajuda.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p19r1" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p19r1" value="1" name="p_19r" required="">
+                                        <label for="cur_p19r1">Precisam de uma opinião sobre assuntos pelos quais me interesso.</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p19r4" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p19r4" value="4" name="p_19r" required="">
+                                        <label for="cur_p19r4">Precisam de uma orientação sobre a compra de alguma coisa. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p19r3" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p19r3" value="3" name="p_19r" required="">
+                                        <label for="cur_p19r3">Querem contar algo que aconteceu com eles. </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="cur_p19r2" class="error" style="display:none;">Responda esta pergunta</label>
+                                        <input type="radio" id="cur_p19r2" value="2" name="p_19r" required="">
+                                        <label for="cur_p19r2">Querem saber sobre o que está na moda.</label>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Ver resultado do meu teste</button>
+        </form>
+    </div>
+</body>
+
+</html>
